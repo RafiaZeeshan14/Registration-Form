@@ -1,0 +1,312 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;;
+}
+
+.header-content{
+    border-bottom: 2px solid #838385;
+    width: 78.5%;
+    margin-left: 8%;   
+} 
+
+.header-content img{
+    margin-top: 5%;
+    margin-left: 3%;
+     height: 149px; 
+     padding-bottom: 4%;
+  
+
+}
+.header-content p{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2%;
+    margin-top: -82px;
+    margin-bottom: 1%;
+    font-size: 20px;
+    color: rgb(48, 42, 42);
+}
+
+.Main-Heading p{
+   color: white;
+   background-color: rgb(48, 42, 42);
+    font-size: 20px; 
+    /* padding-left:8%; */
+   border: 1px solid black; 
+   width: 77.5%;
+   padding: 6px;
+   justify-content: center;
+   margin-left: 8%;
+   margin-right: 3%;
+  
+}
+.form{
+    padding-left: 8%;
+    
+}
+fieldset{
+    border-color: black;
+}
+
+.Main-Form{
+    padding-top: 1%;
+    padding-left: 1%;
+    font-size: 15px;
+    
+} 
+.form_input{
+    padding: 10px;
+   border-style: none;
+   outline: none;
+    border-bottom: 1px solid grey;
+     width: 95%; 
+}
+.form_input1{
+    padding: 10px;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width: 41%;
+    outline: none;
+}
+.form__input{
+    /* padding: 10px;  */
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width: 48.6%;
+    outline: none;
+}
+
+.special-input{
+    padding: 1%;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width: 21.5%;
+    outline: none;
+}
+.form_input2{
+    border-style: none;
+}
+.Main-div{
+    margin-left: 45%;
+}
+.twitter-class{
+    display: inline;
+    border-style: none;
+    border-bottom: 1px solid grey; 
+    width: 89%;
+    padding: 2px;
+    outline: none;
+   
+}
+.main2 p{
+    color: white;
+   background-color: rgb(48, 42, 42);
+    font-size: 20px; 
+    padding-left: 4.5%;
+   border: 1px solid black; 
+   width: 84%;
+   padding: 6px;
+  
+}
+.serve{
+    padding: 10px;
+    display: inline;
+    border-style: none;
+    border-bottom: 1px solid grey;
+    width: 35%;
+    outline: none;
+}
+.Div-Main{
+    display: inline;
+    padding: 1.1%;
+     border-bottom: 1px solid #838385;
+     width: 30%;
+}
+.BoxMain{
+    display: inline;
+    padding: 1.1%;
+    margin-left: 3%;     
+}
+.Boxes{
+    
+    display: inline;
+   
+    width: 10%;
+}  
+.Time-Box{
+    border-bottom: 1px solid #838385;
+    width: 97%;
+}
+.Time-Box input{
+    
+    margin: 5px;
+    width: 75px;
+}
+.Free-Delivery{
+    display: inline;
+    border-style: none;
+    padding: 15px;
+
+} 
+.CDR{
+    display: inline;
+    border-style: none;
+    width: 35%;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding: 10px;
+
+}
+
+.info2{
+    width: 58%;
+    padding: 10px;
+    border-style: none;
+    margin-left: 21%;
+    border-bottom: 1px solid grey;
+    outline: none;
+}
+.Footer-Box{
+    display: inline;
+    border-style: none;
+    width: 87%;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding: 10px;
+    margin-left: 1%;
+}
+.footer{
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 40%;
+    padding: 13px;
+    border: none;
+    background-color: rgb(226, 226, 233)
+}
+.footer-img{
+    margin-left: 14%;
+    margin-top: 3%;
+}
+.foot-border{
+    width: 100%;
+    margin-left: -5%;
+    margin-right: 50%;
+}
+
+
+
+
+@media (min-width:300px) and (max-width: 900px) {
+   
+
+    img{
+        width: 120%;
+    }
+    .head-img{
+        width: 25%;
+    }
+     .header-content img{
+        height: 100px;
+        padding-bottom: 10%;
+     }
+     .header-content p{
+        font-size: 15px;
+     }
+     .form_input1{
+        width: 40%;
+     }
+    .Check-Box1{
+        display: flex;
+        flex-direction: row;
+        margin-right: 4%;
+        padding: 0%;
+        border-bottom: 1px solid grey;
+       
+        
+    }
+    .Labels{
+        font-size: 12px;
+        
+    }
+    .form__input{
+        width: 45%;
+    }
+    .special-input{
+        width: 18.3%;
+    }
+    .Main-div{
+        margin-left: 0%;
+    }
+    .Linkedin{
+       margin-left: -10%;
+    }
+    .Main-Form{
+        font-size: 10px;
+    }
+    .Cuisine{
+        margin-left: -4%;
+    }
+    .serve{
+        width: 95%;
+        margin-bottom: 2%;
+    }
+    .Div-Main{
+        padding: 2%;
+    }
+    .Time-Box input{
+        width: 50px;
+        margin-left: 0%;
+       
+    }
+   .time-input{
+    margin-left: -10%;
+   }
+   .Delivery-class{
+    margin-left: 9%;
+       }
+    .K-M{
+        margin-left: 60%;
+    }
+    .Quality{
+      margin-left: -2%;
+       }
+    .Make{
+       margin-left: 15px;
+       padding-bottom: 1.7%;
+    }
+    .Model{
+        margin-left: 6px;
+        padding-bottom: 1.7%;
+        
+    }
+    h2{
+        font-size: 20px;
+    }
+    pre{
+        font-size: 12px;
+    }
+    .BorderOne {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+

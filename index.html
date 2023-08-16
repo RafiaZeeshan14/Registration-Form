@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>JoyBox Form</title>
+</head>
+
+<body>
+    <!-- *************************************head-content*************************************** -->
+    <div class="header-content">
+        <img src="joybox.png" alt="" class="head-img">
+        <p>Brand Alliance Requisition Form </p>
+    </div>
+    <br>
+    <!-- *************************************1st-Heading************************************** -->
+    <div class="Main-Heading">
+        <p>Business Details :</p>
+    </div>
+    <br>
+    <!-- *************************************first-form********************************* -->
+    <div class="form">
+        <fieldset style="width: 85%;" class="fieldset">
+            <form action="" class="Main-Form">
+                <input type="text" name="text" placeholder="Business Name : " class="form_input"><br>
+                <input type="text" name="text" placeholder="Business Category : " class="form_input"><br>
+                <div style="display: flex ; margin-top: 1%; ">
+                    <input type="text" name="text" placeholder="Business Registration Type :" class="form_input1">
+                    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                    <div class="Check-Box1"
+                        style=" border-bottom: 1px solid grey;  padding: 11px; margin-left: -15%;  width: 51%; ">
+                        <input type="checkbox" name="checkbox" style="border: 1px solid grey;">
+                        &nbsp; <label class="Labels"> Sole Proprietor</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">
+                        &nbsp; <label class="Labels">Pvt Limited</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">
+                        &nbsp; <label class="Labels">Partnership</label>
+                    </div>
+                </div>
+                <br>
+                <input type="text" name="text" placeholder="Business Registration No: " class="form_input"><br>
+                <input type="text" name="text" placeholder="Business Address :" class="form_input"><br>
+                <div style="display: flex;">
+                    <input type="text" name="text" placeholder="Business Branches : " class="form_input1">
+                    &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+
+                    <div class="Check-Box1"
+                        style=" display: inline; border-bottom: 1px solid grey; padding: 11px; margin-left: -15%;  width: 51%;">
+                        <input type="checkbox" name="checkbox">&nbsp;&nbsp;<label class="Labels">01</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">&nbsp;&nbsp;<label class="Labels">02</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">&nbsp;&nbsp;<label class="Labels">03</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">&nbsp;&nbsp;<label class="Labels">04</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">&nbsp;&nbsp;<label class="Labels">05</label>&emsp;&emsp;
+                        <input type="checkbox" name="checkbox">&nbsp;&nbsp;<label class="Labels">more than 05</label>
+                    </div>
+                </div>
+                <!-- *********************************written line blank spaces******************************** -->
+                <input type="text" name="text" class="form_input"><br>
+                <input type="text" name="text" class="form_input"><br>
+                <input type="text" name="text" class="form_input"><br>
+
+                <!-- *********************************Continued-Form******************************** -->
+                <input type="text" name="text" placeholder="Business Manager/Service Owner : "
+                    class="form_input1">&emsp;
+                <i class="fa-solid fa-envelope" style="color: #2a2b2d ; "></i>
+                <input type="text" name="text" placeholder="Email ID " class="form__input" style="padding: 1%;"><br>
+                <input type="text" name="text" placeholder="Business Focal Person: " class="form_input1">&emsp;
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" name="text" placeholder="Contact" class="form__input " style="padding: 1%;"></br>
+                <input type="text" name="text" placeholder="Business Orders Receiving : " class="form_input1">&emsp;
+                <i class="fa-solid fa-envelope" style="color: #2a2b2d ; "></i>
+                <input type="text" name="text" placeholder="Email ID " class="special-input" style="padding: 1%;">&emsp;
+                <i class="fa-solid fa-phone-volume"></i>
+                <input type="text" name="text" placeholder="SMS " class="special-input">
+                <input type="text" name="text" class="form_input2">
+                <div class="Main-div" style="margin-top: -9px; ">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <input type="text" name="text" placeholder="WhatsApp " class="form__input W-App"
+                        style="padding: 4px; padding-bottom: 1.8%;    width: 90.5%;"><br>
+                </div>
+                <input type="text" name="text" placeholder="Business Social Media :" class="form_input1">&emsp;
+                <i class="fa-brands fa-linkedin-in"></i>
+                <input type="text" name="text" placeholder="Linkedin " class="form__input Linkedin"
+                    style="padding: 10px;   margin-top: 5px;  width: 45%; margin-left: 3.4px; "><br>
+                <input type="text" name="text" class="form_input2">&emsp;
+                <div class="Main-div" style="margin-top: -9px;">
+                    <i class="fa-brands fa-twitter"></i> &nbsp;
+                    <input type="text" name="text" placeholder="Twitter " class="form__input"
+                        style="padding: 4px; padding-bottom: 1.5%; padding-left: 1.3%; margin-left: -10px;  width: 89.9%; ">
+                </div>
+                <br>
+                <input type="text" name="text" class="form_input2">
+                <div class="Main-div" style="margin-top: -3.5%;">
+                    <i class="fa-brands fa-facebook"></i>
+                    <input type="text" name="text" placeholder="Facebook " class="form__input"
+                        style="width: 88.5%; margin-left: -4px; padding: 10px;">
+                </div>
+                <br>
+                <input type="text" name="text" class="form_input2">
+                <div class="Main-div" style="margin-top: -3.5%;">
+                    <i class="fa-brands fa-instagram"></i>
+                    <input type="text" name="text" placeholder="Instagram " class="form__input"
+                        style="width: 89%; margin-left: -4px; padding: 10px;">
+                </div>
+                <br><br>
+            </form>
+        </fieldset>
+
+        <br><br>
+
+        <!-- *************************************2nd-heading********************************* -->
+        <div class="main2">
+            <p>Bank Details :</p>
+        </div>
+        <br>
+        <!-- *************************************second-form********************************* -->
+        <fieldset style="width: 85%;">
+            <form class="Main-Form">
+                <input type=" text" name="text" placeholder="Bank Name :" class="form_input1">
+                <input type="text" name="text" placeholder="easypaisa :" class="form_input1" style="width: 52%;"><br>
+                <input type="text" name="text" placeholder="Bank Account :" class="form_input1">
+                <input type="text" name="text" placeholder="Jazzcash :" class="form_input1" style="width: 52%;"><br>
+                <input type="text" name="text" placeholder="RAAST Title :" class="form_input1">
+                <input type="text" name="text" placeholder="Branch (If Any) :" class="form_input1" style="width: 52%;">
+                <br><br>
+            </form>
+        </fieldset>
+        <br><br>
+        <!-- *************************************border-image********************************* -->
+        <div class="BorderOne">
+            <img src="Footer-border.png" alt="border" style="margin-left: -5%; width: 100%;">
+        </div>
+        <br><br>
+        <!-- *************************************3rd-Heading********************************* -->
+        <div class="main2">
+            <p>Cuisine Available:</p>
+        </div><br>
+        <!-- *************************************3rd-form********************************* -->
+        <fieldset style="width: 85%;">
+            <form class="Main-Form">
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Pakistani Cuisine</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Indian Cuisine</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Turkish Cuisine</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Bar B.Q</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Sea Food</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<br><br>
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Fast Food</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Ice Slush</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine">&nbsp;&nbsp;<label>Pizzeria</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Bakery</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine">&nbsp;<label>Shakes/Juices</label>
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+                <br>
+            </form>
+        </fieldset>
+        <br>
+        <!-- *************************************4th-heading********************************* -->
+        <div class="main2">
+            <p>Service Timings</p>
+        </div>
+        <br>
+        <!-- *************************************fourth-Form********************************* -->
+        <fieldset style="width: 85%;">
+            <form class="Main-Form">
+                <!-- *****************************Check-boxes*********************** -->
+                <input type="checkbox" name="Checkbox">
+                &nbsp;<label>Breakfast</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Lunch </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine">
+                &nbsp;<label>Brunch</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine">
+                &nbsp;<label>Hi-Tea</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Dinner
+                </label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Late Night</label>
+                <br><br>
+                <!-- *************************Continued-Form*************** -->
+                <input type="text" name="text" placeholder="Serving Hours :" class="serve">
+
+                <div class="Div-Main">
+                    <div class="BoxMain">
+                        <div class="Boxes">
+                            <label>24 Hour</label>&emsp;<input type="text" name="text">&emsp;&emsp;
+                            <label>12 Hour</label>&emsp;<input type="text" name="text">&emsp;&emsp;
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+                <input type="text" name="text" placeholder="Number Of Days Opened in a Week : "
+                    class="form_input"><br><br>
+
+                <!-- ************Weekdays-CheckBoxes**************** -->
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Monday</label>&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Tuesday</label>&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Wednesday </label>&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Thursday</label>&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Friday </label>&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox"> &nbsp;<label>Saturday </label>&emsp;&emsp;&emsp;
+                <input type="checkbox" name="Checkbox" class="Cuisine"> &nbsp;<label>Sunday </label><br>
+
+                <!-- *****************To-Add-Botton-Line**************** -->
+                <input type="text" name="text" class="form_input"><br>
+                <br>
+                <!-- *****************Time-Boxes**************** -->
+                <div class="Time-Box">
+                    &emsp;&emsp;<label>Time</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label>Time</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label>Time</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label>Time</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label>Time</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label>Time</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <label>Time</label>
+                    <br>
+                    <input type="text" name="text">&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="text" class="Cuisine">&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="text" class="Cuisine">&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="text" class="Cuisine">&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="text" class="Cuisine">&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="text" class="Cuisine">&emsp;&emsp;&emsp;&emsp;
+                    <input type="text" name="text" class="Cuisine">
+                </div>
+                <br>
+                <!-- *****************Delivery-Section*************** -->
+                <input type="text" name="text" placeholder="Delivery(If Available) :" class="form_input">
+                <br><br>
+
+
+                <div style="display: flex;">
+                    <div style="border-bottom: 1px solid grey; width: 37%; ">
+                        <input type="text" name="text" placeholder="Free Delivery(If Any) :" class="Free-Delivery">
+                        <input type="checkbox" name="Checkbox" class="Delivery-class"> &nbsp;<label>Yes </label>&emsp;
+                        <input type="checkbox" name="Checkbox" class="Delivery-class"> &nbsp;<label>No </label>
+                    </div>
+
+                    &emsp;&emsp;&emsp;
+
+                    <!-- *****************Radius*************** -->
+                    <div style="margin-top: 1%; margin-left:-1.5%; border-bottom:  1px solid grey; width: 57%; ">
+
+                        <div style="display: inline;">
+                            &emsp;<input type="checkbox" name="checkbox"> <label>Radius</label>
+                            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                            <input type="text" name="text">&nbsp;&nbsp;<label class="K-M">KiloMeters</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <br><br>
+                <!-- **************Blank-Space*********** -->
+                <input type="text" name="text" class="form_input2">&emsp;&emsp;
+
+                <!-- **************Quality*********** -->
+                <div
+                    style=" margin-top: -3.8% ; margin-left:40%; padding: 10px; border-bottom:  1px solid grey; width: 55%; ">
+                    <div style="display: inline; ">
+                        <input type="checkbox" name="checkbox" class="Quality"> <label>Minimum Quality</label>
+                        &emsp;&emsp;&emsp;&emsp;&emsp;
+                        <input type="text" name="text">&emsp;<label class="K-M">PKR</label>
+                    </div>
+                </div>
+                <!-- *******************Deliver-radius-class************* -->
+                <br>
+                <div style="display:flex">
+                    <input type="text" name="text" placeholder="Charged Delivery Radius :" class="CDR">
+                    <div style="margin-left: 2.5%;  border-bottom: 1px solid grey; width: 57%; ">
+                        <input type="text" name="text">&emsp;<label>Kilometers</label>
+                    </div>
+                </div>
+                <br>
+                <!-- *****************charged-delivery-charges-class************ -->
+                <div style="display: flex;">
+                    <input type="text" name="text" placeholder="Charged Delivery Charges:" class="CDR">
+                    <div style="display: inline; margin-left: 2.5%;  border-bottom: 1px solid grey; width: 57%; ">
+                        <input type="text" name="text">&emsp;<label>Amount</label>&emsp;&emsp;
+                        <input type="text" name="text">&emsp;<label>KiloMeters</label>
+                    </div>
+                </div>
+                <br>
+                <input type="text" name="text" placeholder="Delivery Person Name : " class="form_input"><br>
+                <input type="text" name="text" placeholder="Delivery Person CNIC Number : " class="form_input"
+                    style="margin-top: 5px;"><br>
+                <input type="text" name="text" placeholder="Delivery Person Bike Details : " class="CDR"
+                    style="margin-top: 6px;">
+                <input type="text" name="text" placeholder="Make:" class="special-input Make"><input type="text"
+                    name="text" class="special-input Model" placeholder="Model:" style="width: 34.5%; "><br>
+                <input type="text" name="text" class="form_input2">
+                <input type="text" name="text" class="info2 Reg-Num" placeholder="Registration Number :"
+                    style="width: 57.7%;  margin-left: 21.5%; padding: 1%; margin-top: 5px;"><br>
+                <input type="text" name="text" placeholder=" Delivery Person Contact Number :" class="CDR">
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" name="text" placeholder="Mobile Number:" class="form__input "
+                    style="width: 56%; padding: 1%; margin-top: 5px;"><br>
+                <input type="text" name="text" class="form_input2">
+                <div style="margin-top: -2%; margin-left: 37.5%;  ">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <input type="text" name="text" placeholder="WhatsApp: " class="form__input"
+                        style="width:91%; padding: 1%; margin-top: 7px;">
+                </div>
+                <br><br>
+            </form>
+        </fieldset>
+        <br><br>
+        <!-- ***************************************Memorandum Of Understanding*********************** -->
+        <h2 style="padding-left: 24%;">Memorandum of Understanding</h2>
+        <br><br>
+        <pre
+            style="font-weight: 600; color:  rgb(41, 36, 36);">1.1. JoyBox agrees to promote merchant products on its portals which includes mobile application website, social media platforms
+     and through various other digital tools including but not Imited to emails, newsletters. SMS and push notifications</pre>
+        <br>
+
+        <pre style="font-weight: 600; color:  rgb(41, 36, 36);">1.2. Merchant will be responsible for managing its menu and related prices on JoyBox portal. The quoted price on JoyBox portals
+    shall be the same as the retail price or mutually agreed price and agrees that the margin accruing to JoyBox shall be         % of the
+    retail price of the value of each sale and inclusive/exclusive taxes in Islamic Republic of Pakistan.</pre><br>
+        <img src="Footer-border.png" alt="" style="margin-left: -4%; width: 100%;" ><br><br>
+        <pre style="font-weight: 600; color:  rgb(41, 36, 36);">1.3. Merchant shall be responsible for delivery of orders as per rates specified. rates should be specified on the invoice and be visible 
+     to the customer.”</pre><br>
+
+        <pre style="font-weight: 600; color:  rgb(41, 36, 36);">1.4. The Parties agree to cooperate and endeavor to work in good faith to fulfil the terms of this understanding. Detal agreement pertain
+     to terms and conditions will be signed within fifteen days from the date of signing of this understanding</pre>
+        <br>
+
+        <pre
+            style="font-weight: 600; color:  rgb(41, 36, 36);">1.5. JoyBox reserves the right to offer its delivery services as per its own internal policy.</pre>
+        <br>
+
+        <pre
+            style="font-weight: 600; color:  rgb(41, 36, 36);">1.6. Merchant agrees to offer mutually agreed discounted deals to JoyBox customers.</pre>
+        <br>
+
+        <pre style="font-weight: 600; color:  rgb(41, 36, 36);">1.7. Merchant may be liable to pay a penalty of % of the order value if same complaint has been verified, twice within a month. For 
+     instance, preparation time exceeds the stated time of food </pre><br>
+
+        <pre
+            style="font-weight: 600; color:  rgb(41, 36, 36);"> 1.8. JoyBox will run weekly cycle for the Merchant.</pre>
+        <br>
+        <!-- ************************Service-Available-Heading******************** -->
+        <div class="main2">
+            <p>Service Available</p>
+        </div>
+        <br>
+        <!-- ************************Service-Available-Form******************** -->
+        <fieldset style="width: 85%;">
+            <form class="Main-Form">
+                <input type="text" name="text" placeholder="Credit Period" class="CDR">
+                <input type="text" name="text" class="form_input1" placeholder="3 days" style="width: 58%;"><br>
+                <input type="text" name="text" placeholder="Comission" class="CDR">
+                <input type="text" name="text" class="form_input1" placeholder="% of order value"
+                    style="width: 58%;"><br>
+                <input type="text" name="text" placeholder="Order Statement" class="CDR">
+                <input type="text" name="text" class="form_input1" placeholder="Can be found on the platform"
+                    style="width: 58%;"><br>
+                <input type="text" name="text" placeholder="Payment Cycle" class="CDR">
+                <input type="text" name="text" class="form_input1"
+                    placeholder="Every 3 Days &emsp;(Monday - Wednesday - Friday)" style="width: 58%;"><br>
+                <input type="text" name="text" placeholder="Contact details for clarification/dispute of order(s) "
+                    class="CDR">
+                <input type="text" name="text" class="form_input1" style="width: 58%;"><br>
+                <input type="text" name="text" class="form_input"><br><br><br><br>
+            </form>
+        </fieldset>
+        <br><br>
+        <!-- ************************First-Footer-Box***************** -->
+        <div style="display: flex;" >
+            <fieldset style="width: 30%; display: inline;" class="foot-box">
+                <form class="Main-Form"><br><br>
+                    <input type="text" name="text" placeholder="Brand Alliance Manager Signature/Stamp"
+                        class="Footer-Box"><br><br>
+                    <input type="text" name="text" placeholder="Name:" class="Footer-Box"><br>
+                </form>
+            </fieldset>
+            <br><br>
+            <!-- *************************Second-Footer-Box**************** -->
+            <fieldset style="width: 30%; margin-left: 24.5%;">
+                <form class="Main-Form"><br><br>
+                    <input type="text" name="text" placeholder="Brand Alliance Manager Signature/Stamp"
+                        class="Footer-Box"><br><br>
+                    <input type="text" name="text" placeholder="Name:" class="Footer-Box"><br><br>
+                    <input type="text" name="text" placeholder="Designation:" class="Footer-Box"><br><br>
+                </form>
+            </fieldset>
+
+        </div>
+        <br>
+        <!-- ****************************Footer-Box******************* -->
+        <input type="text" name="text" placeholder="Date:" class="CDR" style="width: 28%;"><br><br><br>
+        <div style="display: flex;">
+            <div class="footer">
+                <i class="fa-sharp fa-solid fa-phone"></i>&nbsp;+92 21 3340 5614 <br><br>
+                <i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;brand.alliance@joybox.pk <br><br>
+                <div style="display: inline;">
+                    <i class="fa-solid fa-globe"></i>&nbsp;&nbsp;Joybox.pk <br><br>
+                    <i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;1st Floor, Building no. 65 C, Hall Mark, Phase
+                    V, D.H.A KHI. <br><br>
+                    <i class="fa-brands fa-twitter"
+                        style="border: 1px solid rgb(19, 19, 37); border-radius: 8px; padding: 1px;"></i>
+                    <i class="fa-brands fa-linkedin-in"
+                        style="border: 1px solid rgb(19, 19, 37); border-radius: 7px; padding: 1px;"></i>
+                    <i class="fa-brands fa-instagram"
+                        style="border: 1px solid rgb(19, 19, 37); border-radius: 8px; padding: 1px;"></i>/JoyBoxPakistan
+                    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                    <i class="fa-brands fa-facebook"
+                        style="border: 1px solid rgb(19, 19, 37); border-radius: 8px; padding: 1px; "></i> JoyBoxPak
+                </div>
+
+            </div>
+            <br><br>
+            <!-- *************************Footer-Border-Image********************* -->
+            <div class="footer-img">
+                <img src="footer.png" alt="">
+            </div>
+        </div>
+        <br><br>
+        <div class="foot-border">
+            <img src="Footer-border.png" alt="" style="margin-left: 1%; width: 100%; ">
+        </div>
+
+
+
+
+
+</body>
+
+</html>
