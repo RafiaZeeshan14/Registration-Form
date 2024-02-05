@@ -14,9 +14,6 @@ It provides a user-friendly interface for entering company details, contact info
 ## Technologies Used
 This project makes use of the following technologies:
 - HTML/CSS
-- JavaScript
-- Any additional libraries or frameworks you may have used
-- Backend technology if applicable (e.g., Node.js, Django, etc.)
 
 ## Installation
 To run this project locally, follow these steps:
