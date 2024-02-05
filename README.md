@@ -27,8 +27,6 @@ Once the project is set up, users can fill out the registration form, submit com
 # Preview 
 ![image](https://github.com/RafiaZeeshan14/Registration-Form/assets/141746940/f4a8fafc-de2a-4dcc-b92a-a62a68daea60)
 
-## Footer 
-![Uploading image.png…]()
 
 
 
